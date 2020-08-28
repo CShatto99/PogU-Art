@@ -4,7 +4,7 @@ Demo: [PogU Art](http://poguart.com/)
 
 ### Introduction
 
-PogU Art is a simple web app that hosts art that has been posted on the subreddit r/xqcow with the "ART" flair. If you do not see your art on the site or you would like to receive the directory containing all of the art pieces email me at cameronshatto99@gmail.com.
+PogU Art is a simple static React website that hosts all fan art found on the r/xqcow subreddit. As of 8/27/2020 the site is hosting 2033 pieces of art from 1282 unique artists. Each image artist/URL was fetched and converting into json using the PRAW Python module. 
 
 ### Local Development
 
