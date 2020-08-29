@@ -9,6 +9,10 @@ import {
   Collapse,
   NavItem,
   NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem
 } from 'reactstrap'
 import xqcpfp from '../img/xqcpfp.jpeg'
 
@@ -25,17 +29,27 @@ const AppNavbar = () => {
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link to ='/' className='nav-link' onClick={toggle}>Art</Link>
+                <Link to ='/' className='nav-link' onClick={toggle}>All Art</Link>
+              </NavItem>
+              <NavItem>
+                <Link to ='/top' className='nav-link' onClick={toggle}>Top Art</Link>
               </NavItem>
               <NavItem>
                 <Link to='/authors' className='nav-link' onClick={toggle}>Authors</Link>
               </NavItem>
-              <NavItem>
-                <NavLink href='https://www.twitch.tv/xqcow' target='__blank' onClick={toggle}>xQcOW</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href='https://github.com/CShatto99/MERN_Projects/tree/master/PogUArt' target='__blank' onClick={toggle}>Github</NavLink>
-              </NavItem>
+              <UncontrolledDropdown nav inNavbar>
+                <DropdownToggle nav caret>
+                  Other
+                </DropdownToggle>
+                <DropdownMenu right>
+                  <DropdownItem>
+                    <NavLink href='https://www.twitch.tv/xqcow' target='__blank' onClick={toggle}>xQcOW</NavLink>
+                  </DropdownItem>
+                  <DropdownItem>
+                    <NavLink href='https://github.com/CShatto99/MERN_Projects/tree/master/PogUArt' target='__blank' onClick={toggle}>Github</NavLink>
+                  </DropdownItem>
+                </DropdownMenu>
+              </UncontrolledDropdown>
             </Nav>
           </Collapse>
         </Container>

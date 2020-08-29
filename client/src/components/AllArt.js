@@ -6,7 +6,7 @@ import {
   Button
 } from 'reactstrap'
 import { v4 as uuidv4 } from 'uuid';
-import { art } from '../json/images.json'
+import { art } from '../json/allArt.json'
 import authors from '../json/authors.json'
 
 const shuffle = () => {
@@ -70,7 +70,7 @@ const loadMore = (index, randex) => {
   return collage
 }
 
-const Collage = () => {
+const AllArt = () => {
   const randex = shuffle()
   const [collage, setCollage] = useState(loadMore(0, randex))
 
@@ -90,4 +90,4 @@ const Collage = () => {
   )
 }
 
-export default Collage
+export default AllArt
