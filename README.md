@@ -14,17 +14,16 @@ PogU Art is a simple static React website that hosts all fan art found on the r/
 
 #### Front End
 * React
-* React Router
-* Axios
-* Bootstrap
-* Reactstrap
-* UUID
+* react-router-dom
+* axios
+* bootstrap/reactstrap
+* uuid
 
 #### Back End
-* NodeJS
-* ExpressJS
-* Nodemon
-* Concurrently
+* Node
+* express
+* nodemon
+* concurrently
 
 ## Local Setup
 1. Run the following commands 
