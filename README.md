@@ -48,4 +48,4 @@ PogU Art is a simple static React website that hosts all fan art found on the r/
     ```
 ## DEMO
 
-#### Link - [poguart.com](http://poguart.com)
+#### LINK - [poguart.com](http://poguart.com)
