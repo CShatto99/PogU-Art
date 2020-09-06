@@ -8,7 +8,6 @@ PogU Art is a simple static React website that hosts all fan art found on the r/
   - [Front-end](#front-end)
   - [Back-end](#back-end)
 - [Guidelines to setup](#local-setup)
-
 - [Demo](#demo)
   - [Link](#link---poguart.com)
   - [Images](#images)
@@ -32,6 +31,9 @@ PogU Art is a simple static React website that hosts all fan art found on the r/
 ## Local Setup
 1. Run these commands then - 
     ```
+    git clone https://github.com/CShatto99/PogU-Art.git (clones the repo)
+    
+    cd PogU-Art
     
     npm run installDep (installs all dependencies)
     ```
