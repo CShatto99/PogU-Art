@@ -5,12 +5,10 @@ PogU Art is a simple static React website that hosts all fan art found on the r/
 ## Table of Contents
 
 - [Tech Stack](#tech-stack)
-  - [Front-end](#front-end)
-  - [Back-end](#back-end)
-- [Guidelines to setup](#local-setup)
+  - [Front End](#front-end)
+  - [Back End](#back-end)
+- [Local Setup](#local-setup)
 - [Demo](#demo)
-  - [Link](#link---poguart.com)
-  - [Images](#images)
 
 ## Tech Stack
 
