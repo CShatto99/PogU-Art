@@ -1,6 +1,6 @@
 # PogU Art
 
-PogU Art is a simple static React website that hosts all fan art found on the r/xqcow subreddit. As of 8/27/2020 the site is hosting 2033 pieces of art from 1282 unique artists. Each image artist/URL was fetched and converting into json using the PRAW Python module. 
+PogU Art is a simple static React website that hosts all fan art found on the r/xqcow subreddit. As of 9/5/2020 the site is hosting 2154 pieces of art from 1351 unique artists. Each image artist/URL was fetched and converted into json using the PRAW Python module.
 
 ## Table of Contents
 
@@ -32,8 +32,8 @@ PogU Art is a simple static React website that hosts all fan art found on the r/
 ## Local Setup
 1. Run these commands then - 
     ```
-    npm run installDep (installs all dependencies)
     
+    npm run installDep (installs all dependencies)
     ```
 4. Servers
     ```
@@ -50,8 +50,3 @@ PogU Art is a simple static React website that hosts all fan art found on the r/
 ## DEMO
 
 #### Link - [poguart.com](http://poguart.com)
-  
-#### IMAGES
-<img src="/demo/images/1.png" width=340px /><img src="/demo/images/5.png" width=340px />
-<img src="/demo/images/3.png" width=340px /><img src="/demo/images/10.png" width=340px />
-<img src="/demo/images/7.png" width=340px /><img src="/demo/images/9.png" width=340px />
