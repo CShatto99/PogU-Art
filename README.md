@@ -46,6 +46,8 @@ PogU Art is a simple static React website that hosts all fan art found on the r/
     
     npm run client (runs frontend server only)
     ```
-## DEMO
 
+
+## DEMO
+**Note:** This demo relied on the Heroku free tier and is no longer active.
 #### LINK - [poguart.com](http://poguart.com)
